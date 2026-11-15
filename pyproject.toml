@@ -1,0 +1,14 @@
+[project]
+name = "fmp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pangaea",
+    "thor",
+]
+
+[tool.uv.sources]
+pangaea = { git = "https://github.com/GebTorte/pangaea-bench.git" }
+thor = { git = "https://github.com/GebTorte/THOR.git" }
